@@ -1,0 +1,109 @@
+
+.cardHeading {
+    width: 100%;
+    height: fit-content;
+
+
+    .titlediv {
+        height: 50px;
+        width: 100%;
+        background: #000000;
+        border-radius: 15px 15px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .title {
+            width: 420px;
+            height: 22px;
+            font-family: 'Poppins';
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            /* identical to box height */
+
+            letter-spacing: 0.02em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+            color: #FFFFFF;
+
+margin-left: 20px;
+
+        }
+
+        
+
+        .info{
+
+border: 1px soild white;
+           width: 50px;
+           height: 50px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           padding-right: 27px;
+    
+    
+    
+        .circle {
+    
+            width: 22px;
+            height: 22px;
+            background: #FFFFFF;
+            border-radius: 50%;
+            color: #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+        }
+    }
+    }
+
+
+
+    .descripition {
+
+        padding: 19px 16px 0 11px;
+
+        width: 453px;
+
+        height: 83px;
+
+
+
+        >p {
+
+
+text-align: justify;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.02em;
+
+            color: #000000;
+
+
+            >span {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: 0.02em;
+
+                color: #000000;
+            }
+
+
+        }
+
+
+    }
+}

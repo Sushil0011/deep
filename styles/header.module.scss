@@ -1,0 +1,132 @@
+nav{
+ width: 1440px;
+height: 90px;
+background: #F0F0F0;
+
+
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: auto;
+padding:0 83px;
+
+
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+
+ .logo{
+height: 49px;
+width: 49px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#0029FF;
+border-radius: 50%;
+ }
+
+ >h2{
+    color:#000000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+ font:600 22px "Poppins"
+
+
+}
+
+ >span{
+    color:#0029FF ;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font:800 22px "Poppins"
+
+}
+
+}
+
+
+  
+
+
+.icons{
+    width: 230px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap:22px;
+    margin-left: 100px;
+
+    .home{
+        height:32.37px ;
+        width: 30px;
+        background-color:#3683F0 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+
+        >img{
+            width: 17px;
+            height: 18.34;
+        }
+    }
+    .tool{
+        height:32.37px ;
+        width: 30px;
+        background-color:#3683F0 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+
+        >img{
+            width: 17px;
+            height: 18.34;
+        }
+    }.noti{
+        height:33.47px ;
+        width: 31.15px;
+        background-color:#3683F0 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+
+    >span{
+        position: relative;
+        right:9px;
+        bottom: 5px;
+            width: 7.06px;
+            height: 4.4px;
+            border-radius: 50%;
+            background-color: red;
+
+        }
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.99px;
+
+        >span{
+            width: 3.03px;
+            height: 2.99px;
+            background-color: #3683F0;
+            border-radius: 50%;
+        }
+    }
+
+}
+
+
+
+}

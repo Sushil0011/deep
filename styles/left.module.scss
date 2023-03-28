@@ -1,0 +1,37 @@
+.left {
+
+    height: 742px;
+    width: 132px;
+    background: #FFFFFF;
+    box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+display: flex;
+flex-direction: column;
+
+    .head {
+
+        height: 50px;
+        background-color: #000000;
+        border-top-right-radius: 20px;
+
+    }
+
+
+
+
+    .item {
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 26px;
+        width: 68px;
+        height: 68px;
+       margin-left: 32px;
+
+        border: 1px solid #0029FF;
+        border-radius: 20px;
+
+    }
+}

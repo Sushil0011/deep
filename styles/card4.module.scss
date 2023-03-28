@@ -1,0 +1,219 @@
+.Wrapper {
+    border-top: 1px solid #D1CECE;
+margin-top: 30px;
+    padding: 0 23px;
+
+    .intro {
+
+        // margin: 0 auto;
+        display: flex;
+        width: 434px;
+        height: 43px;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 14px;
+        padding: 0 14px;
+        background: #F2F2F2;
+
+        >div {
+
+            height: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            >img {
+                height: 9.6px;
+                width: 15.9px;
+
+
+
+            }
+        }
+
+        >span {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.02em;
+
+            color: #000000;
+
+
+        }
+    }
+
+
+
+
+    .intromsg {
+        width: 394px;
+        margin-top: 16px;
+        height: 67px;
+        left: 779px;
+        top: 1245px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.02em;
+
+        color: #000000;
+
+
+    }
+
+    .seeMoreBox {
+        position: relative;
+        width: 71px;
+        height: 29px;
+        bottom: 17px;
+        left: 364px;
+
+        >p {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 0.02em;
+
+            color: #606161;
+        }
+
+    }
+
+
+    .threadA {
+        display: flex;
+        width: 434px;
+        height: 43px;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 14px;
+        padding: 0 14px;
+        background: #FCFCFC;
+        border: 1px solid #D9D7D7;
+
+        >div {
+            height: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            >img {
+                height: 9.6px;
+                width: 15.9px;
+
+
+
+
+            }
+        }
+
+        >span {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.02em;
+
+            color: #000000;
+
+
+
+        }
+
+
+    }
+
+    .threadAmsg {
+
+        >p {
+            padding: 16px 0px 0px 15px;
+            text-align: justify;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 0.02em;
+
+            color: #000000;
+
+        }
+
+    }
+
+    .threadSeeMore{
+        display: flex;
+        justify-content: end;
+        margin-top: 20px;
+
+        >p{
+            font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+padding-right: 2px;
+
+color: #606161;
+
+        }
+    }
+
+
+
+    .example{
+
+        margin-top: 40px;
+        margin-left: 42px;
+        height: 43px;
+width: 394px;
+background: #FCFCFC;
+border: 1px solid #D9D7D7;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+padding-left: 24px;
+
+>span{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+}
+
+    }
+
+
+    .exampleMsg{
+        width: 394px;
+        margin-top: 16px;
+        margin-left: 42px;
+height: 67px;
+left: 813px;
+top: 1590px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+    }
+}

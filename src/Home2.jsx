@@ -20,7 +20,7 @@ const Home = () => {
       
 <Left2/>
 
-        <div className='center'>
+        <div   style={{margin:"0 auto" ,marginLeft:"137px"}} className='center'>
 
           <div >
             <span>Technical Project Management</span>
